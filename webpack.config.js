@@ -5,7 +5,7 @@ module.exports = [
   'source-map'
 ].map(devtool => ({
   mode: 'production',
-  entry: './src/index.ts',
+  entry: './src/linear-least-squares.ts',
   devtool: 'inline-source-map',
   module: {
     rules: [
