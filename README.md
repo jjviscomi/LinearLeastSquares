@@ -75,4 +75,4 @@ predicted_point = fit.predicted_point(result.m, 12, result.b);
 [ 12, 18.524390243902438 ]
 ```
 
-Source docs are available at https://jjviscomi.github.io/LinearLeastSquares/
+Source docs are available at https://github.com/jjviscomi/LinearLeastSquares/blob/master/docs/classes/_linear_least_squares_.linearleastsquares.md
