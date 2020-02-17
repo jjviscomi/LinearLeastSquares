@@ -1,0 +1,27 @@
+{
+  "name": "linear-least-squares",
+  "description": "Finds the best curve to fit a set of points through minimizing the sum of the squares of the offset of each point from the curve.",
+  "main": "lib/linear-least-squares.js",
+  "authors": [
+    "Joseph J. Viscomi"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Curve",
+    "Fit",
+    "Least",
+    "Squares",
+    "Least",
+    "Least",
+    "Squares"
+  ],
+  "homepage": "https://github.com/jjviscomi/LinearLeastSquares",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    ".git"
+  ]
+}
