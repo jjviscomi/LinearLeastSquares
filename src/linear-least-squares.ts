@@ -1,3 +1,4 @@
+
 class LinearLeastSquares {
     _points: Array<[number, number]>;
     _size: number;
@@ -11,6 +12,9 @@ class LinearLeastSquares {
     _root_mean_squares_error: number;
     _r_squared: number;
 
+    /**
+    * @param points  Array<[number, number]>.
+    */
     constructor(points: Array<[number, number]>) {
         this._points         = points;
         this._size           = this._points.length;
@@ -47,10 +51,19 @@ class LinearLeastSquares {
       return (this._mean[1]) - (this.slope() * this._mean[0]);
     }
 
+    /**
+    * @param m  number that represents the slop.
+    * @param x  the x-value you want to predict the y-value for.
+    * @param b  number that represnets the y-intercept.
+    */
     predicted_point(m: number, x: number, b: number): [number, number] {
       return [x, (x * m) + b];
     }
 
+    /**
+    * @param m  number that represents the slop.
+    * @param b  number that represnets the y-intercept.
+    */
     evaluate_fit(m: number, b: number): void {
       this._total_sum_of_squares        = 0;
       this._sum_of_squares_of_residuals = 0;
@@ -85,6 +98,10 @@ class LinearLeastSquares {
       return fit;
     }
 
+    /**
+    * @param m  number that represents the slop.
+    * @param b  number that represnets the y-intercept.
+    */
     predicted_points(m: number, b: number): Array<[number, number]> {
       let points: Array<[number, number]> = [];
 
