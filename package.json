@@ -1,6 +1,6 @@
 {
   "name": "linear-least-squares",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Finds the best curve to fit a set of points through minimizing the sum of the squares of the offset of each point from the curve.",
   "main": "lib/linear-least-squares.js",
   "scripts": {
