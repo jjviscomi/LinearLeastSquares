@@ -38,9 +38,12 @@ The result object contains 4 keys:
 ```
 
 `m`: is the slope of the fit line.
+
 `b`: is the y-intercept of the slop line.
+
 `rmse`: is the root mean square error, it tells you how concentrated the data
 is around the line of best fit.
+
 `r_squared`: is the R-squared statistical measure, evaluates the scatter of the
 data points around the fitted regression line.
 
@@ -71,3 +74,5 @@ predicted_point = fit.predicted_point(result.m, 12, result.b);
 
 [ 12, 18.524390243902438 ]
 ```
+
+Source docs are available at https://jjviscomi.github.io/LinearLeastSquares/
