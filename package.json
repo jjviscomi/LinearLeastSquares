@@ -2,9 +2,10 @@
   "name": "linear-least-squares",
   "version": "1.0.0",
   "description": "Finds the best curve to fit a set of points through minimizing the sum of the squares of the offset of each point from the curve.",
-  "main": "index.js",
+  "main": "dist/linear-least-squares.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,8 @@
     "Fit",
     "Least",
     "Squares",
-    "Least"
+    "Least",
+    "Least Squares"
   ],
   "author": "Joseph J. Viscomi",
   "license": "MIT",
@@ -23,7 +25,13 @@
     "url": "https://github.com/jjviscomi/LinearLeastSquares/issues"
   },
   "homepage": "https://github.com/jjviscomi/LinearLeastSquares#readme",
-  "dependencies": {
-    "np": "^6.0.0"
+  "dependencies": {},
+  "devDependencies": {
+    "np": "^6.0.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
   }
 }
