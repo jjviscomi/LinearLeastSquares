@@ -25,7 +25,6 @@
     "url": "https://github.com/jjviscomi/LinearLeastSquares/issues"
   },
   "homepage": "https://github.com/jjviscomi/LinearLeastSquares#readme",
-  "dependencies": {},
   "devDependencies": {
     "np": "^6.0.0",
     "ts-loader": "^6.2.1",
