@@ -104,8 +104,4 @@ class LinearLeastSquares {
     }
 }
 
-// WORKS IN NODE
 module.exports = LinearLeastSquares;
-
-// WORKS IN WEB
-// module.exports = {LinearLeastSquares: LinearLeastSquares};
